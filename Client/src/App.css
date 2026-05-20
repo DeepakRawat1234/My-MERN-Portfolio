@@ -1,0 +1,18 @@
+.Font-Fontdiner{
+  font-family: "Fontdiner Swanky", serif;
+  font-weight: 200;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+
+
+.font-Bubblegum {
+  font-family: "Bubblegum Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  
+}
+html{
+  scroll-behavior: smooth;
+}
