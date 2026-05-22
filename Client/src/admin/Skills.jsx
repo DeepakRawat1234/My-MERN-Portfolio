@@ -28,7 +28,7 @@ const Skills = ({ skills }) => {
   const handleDelete = async (index) => {
     const SkilltoDelete = skillsData[index]._id;
     try {
-      const response = await fetch("https://my-mern-portfolio-8g6r.onrender.com/api/delete-skills", {
+      const response = await fetch("https://my-mern-portfolio-cy5c.onrender.com/api/delete-skills", {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json"
@@ -60,7 +60,7 @@ const Skills = ({ skills }) => {
 
   const submitData = async () => {
     try {
-      const response = await fetch("https://my-mern-portfolio-8g6r.onrender.com/api/add-skills", {
+      const response = await fetch("https://my-mern-portfolio-cy5c.onrender.com/api/add-skills", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(skillsData),

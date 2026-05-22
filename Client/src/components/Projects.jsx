@@ -30,7 +30,7 @@ const Projects = () => {
       setLoading(true);
 
       const res = await fetch(
-        `http://localhost:5000/api/projects?category=${category}`
+        `https://my-mern-portfolio-cy5c.onrender.com/api/projects?category=${category}`
       );
 
       const data = await res.json();

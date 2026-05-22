@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Login from './pages/Login';
 import Dashboard from "./pages/AdminDashboard.jsx"
-import ManageProfile from "./admin/ManageProfile.jsx"
+
 // import Register from './components/Register';
 // import Dashboard from './components/Dashboard';
 
@@ -28,7 +28,7 @@ function App() {
        <Route path="/project/:id" element={<AboutProject />} ></Route>
       <Route path="/login" element ={<Login/>}></Route>
       <Route path="/admin-dashboard" element ={<Dashboard/>}></Route>
-      <Route path="/admin/manage-profile" element={<ManageProfile/>}/>
+     
     </Routes>
        {!hideLayout && !hideNav && <Footer userData={FooterData} />}
     

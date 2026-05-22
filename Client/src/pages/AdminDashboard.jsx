@@ -1,11 +1,11 @@
 import react from 'react'
 import AdminNavbar from "../admin/AdminNavbar.jsx"
 import {useState,useEffect} from "react"
-import Profile from "../admin/content/Profile";
-import Skills from "../admin/content/Skills";
-import Projects from "../admin/content/Projects";
-import Certifications from "../admin/content/Certifications";
-import Timeline from "../admin/content/Timeline.jsx";
+import Profile from "../admin/Profile.jsx";
+import Skills from "../admin/Skills.jsx";
+import Projects from "../admin/Projects.jsx";
+import Certifications from "../admin/Certifications.jsx";
+import Timeline from "../admin/Timeline.jsx";
 import Sidebar from "../admin/Sidebar.jsx"
 const Dashboard=()=>{
     const [activeSection, setActiveSection] = useState("Profile");
@@ -18,20 +18,20 @@ const Dashboard=()=>{
     const fetchData=async()=>{
       try {
   const [response, skillsData, certificates,projects] = await Promise.all([
-    fetch("https://my-mern-portfolio-8g6r.onrender.com/api/get-data", {
+    fetch("https://my-mern-portfolio-cy5c.onrender.com/api/get-data", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
       },
     }),
 
-    fetch("https://my-mern-portfolio-8g6r.onrender.com/api/get-skills", {
+    fetch("https://my-mern-portfolio-cy5c.onrender.com/api/get-skills", {
       method: "GET",
     }),
-    fetch("https://my-mern-portfolio-8g6r.onrender.com/api/certificates",{
+    fetch("https://my-mern-portfolio-cy5c.onrender.com/api/certificates",{
       method:"GET"
     }),
-    fetch("https://my-mern-portfolio-8g6r.onrender.com/api/projects",{
+    fetch("https://my-mern-portfolio-cy5c.onrender.com/api/projects",{
       method:"GET"
     })
   ]);

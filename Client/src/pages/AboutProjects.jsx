@@ -16,7 +16,7 @@ const AboutProject = () => {
         if (!id) return;
 
         const res = await fetch(
-          `http://localhost:5000/api/projects/${id}`
+          `https://my-mern-portfolio-cy5c.onrender.com/api/projects/${id}`
         );
 
         const resData = await res.json();

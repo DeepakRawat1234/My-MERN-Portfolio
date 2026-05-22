@@ -16,17 +16,17 @@ const Home = ({sendData}) => {
     const fetchData=async()=>{
       try {
   const [response, skillsData, certificates] = await Promise.all([
-    fetch("https://my-mern-portfolio-8g6r.onrender.com/api/get-data", {
+    fetch("https://my-mern-portfolio-cy5c.onrender.com/api/get-data", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
       },
     }),
 
-    fetch("https://my-mern-portfolio-8g6r.onrender.com/api/get-skills", {
+    fetch("https://my-mern-portfolio-cy5c.onrender.com/api/get-skills", {
       method: "GET",
     }),
-    fetch("https://my-mern-portfolio-8g6r.onrender.com/api/certificates",{
+    fetch("https://my-mern-portfolio-cy5c.onrender.com/api/certificates",{
       method:"GET"
     })
   ]);

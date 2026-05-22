@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import "../../../src/App.css";
 import Swal from "sweetalert2";
+import "../../src/App.css"
 const Profile = ({ userData }) => {
 
   // form state
@@ -38,7 +38,7 @@ const Profile = ({ userData }) => {
 
   const sendData = async () => {
     try {
-      const response = await fetch("https://my-mern-portfolio-8g6r.onrender.com/api/update-profile", {
+      const response = await fetch("https://my-mern-portfolio-cy5c.onrender.com/api/update-profile", {
         method: 'POST',
         headers: {
           "Content-Type": "application/json"
