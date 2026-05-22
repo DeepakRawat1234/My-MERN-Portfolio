@@ -40,7 +40,7 @@ const Timeline = ({ userData }) => {
   ];
   const handleDelelte = async (_id) => {
     try {
-      console.log("Deleting ID:", _id);
+     
 
       const response = await fetch(
         "http://localhost:5000/api/delete-education",
@@ -88,7 +88,7 @@ const Timeline = ({ userData }) => {
 
   const submitData = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/update-education", {
+      const response = await fetch("https://my-mern-portfolio-8g6r.onrender.com/api/update-education", {
         method: 'POST',
         headers: {
           "Content-Type": "application/json"

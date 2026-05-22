@@ -38,7 +38,7 @@ const Profile = ({ userData }) => {
 
   const sendData = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/update-profile", {
+      const response = await fetch("https://my-mern-portfolio-8g6r.onrender.com/api/update-profile", {
         method: 'POST',
         headers: {
           "Content-Type": "application/json"

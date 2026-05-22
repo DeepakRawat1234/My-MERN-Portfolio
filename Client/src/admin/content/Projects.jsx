@@ -50,7 +50,7 @@ const Projects = ({ projectData }) => {
       // Backend Call
       
       const response = await fetch(
-        "http://localhost:5000/api/projects/delete-project",
+        "https://my-mern-portfolio-8g6r.onrender.com/api/projects/delete-project",
         {
           method: "DELETE",
           headers: {
@@ -95,7 +95,7 @@ const Projects = ({ projectData }) => {
   const submitData = async () => {
     try {
       const response = await fetch(
-        "http://localhost:5000/api/projects/update-projects",
+        "https://my-mern-portfolio-8g6r.onrender.com/api/projects/update-projects",
         {
           method: "POST",
           headers: {

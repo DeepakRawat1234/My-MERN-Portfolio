@@ -44,7 +44,7 @@ const Contact=({userData})=>{
         form.current.reset(); 
       },
       (error) => {
-        console.log(error);
+        
         Swal.fire({
       icon: "error",
       title: "Failed",

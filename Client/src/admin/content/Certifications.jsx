@@ -53,7 +53,7 @@ const Certificates = ({ certificateData }) => {
     try {
 
       const response = await fetch(
-        "http://localhost:5000/api/certificates/delete-certificate",
+        "https://my-mern-portfolio-8g6r.onrender.com/api/certificates/delete-certificate",
         {
           method: "DELETE",
           headers: {
@@ -100,7 +100,7 @@ const Certificates = ({ certificateData }) => {
     try {
 
       const response = await fetch(
-        "http://localhost:5000/api/certificates/update-certificates",
+        "https://my-mern-portfolio-8g6r.onrender.com/api/certificates/update-certificates",
         {
           method: "POST",
           headers: {
