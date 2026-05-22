@@ -1,57 +1,70 @@
-
 import mongoose from "mongoose";
 
 const projectSchema = new mongoose.Schema(
   {
     title: {
       type: String,
-      required: true,
+      default: "",
       trim: true,
     },
 
     slug: {
       type: String,
-      unique: true,
+      default: "",
       lowercase: true,
+      trim: true,
     },
 
     shortDescription: {
       type: String,
-      required: true,
+      default: "",
     },
 
     fullDescription: {
       type: String,
+      default: "",
     },
 
     category: {
       type: String,
-      enum: ["Full Stack", "Frontend", "Backend", "MERN", "UI/UX"],
-      default: "Full Stack",
+      default: "",
     },
 
-    techStack: [
-      {
-        type: String,
-      },
-    ],
+    // Single string bhi chalega
+    // Array bhi chalega
+    techStack: {
+      type: mongoose.Schema.Types.Mixed,
+      default: [],
+    },
 
-    features: [String],
+    features: {
+      type: mongoose.Schema.Types.Mixed,
+      default: [],
+    },
 
-    githubLink: String,
+    githubLink: {
+      type: String,
+      default: "",
+    },
 
-    liveLink: String,
+    liveLink: {
+      type: String,
+      default: "",
+    },
 
-    videoDemo: String,
+    videoDemo: {
+      type: String,
+      default: "",
+    },
 
-    thumbnail: String,
-
-    
+    thumbnail: {
+      type: String,
+      default: "",
+    },
 
     status: {
       type: String,
-      enum: ["Completed", "In Progress"],
-      default: "Completed",
+      default: "",
     },
 
     featured: {
@@ -59,15 +72,14 @@ const projectSchema = new mongoose.Schema(
       default: false,
     },
 
-    searchableText: String,
-
-  
+    searchableText: {
+      type: String,
+      default: "",
+    },
   },
-  { timestamps: true }
+  {
+    timestamps: true,
+  }
 );
-
-
-
-
 
 export default mongoose.model("Project", projectSchema);

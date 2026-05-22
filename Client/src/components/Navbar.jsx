@@ -1,11 +1,19 @@
 import React, { useState } from 'react';
+import { useNavigate } from "react-router-dom";
 import "../App.css";
 
-const Navbar = () => {
+const Navbar = ({userPassword}) => {
 
     const [open, setOpen] = useState(false);
     const [active, setActive] = useState("home");
+    const password=userPassword.password;
+    const navigate= useNavigate();
+  const goToLogin = () => {
 
+    navigate("/login", {
+      state: password,
+    });
+}
     return (
         <div>
 
@@ -77,7 +85,7 @@ const Navbar = () => {
                     {/* Right Side */}
                     <div className="hidden md:flex gap-4 items-center">
 
-                        <h1 className="p-1 bg-gray-700 rounded-lg px-2">
+                        <h1 className="p-1 bg-gray-700 rounded-lg px-2" onClick={goToLogin}>
                             <i className="fa-solid fa-gear text-blue-400"></i>
                         </h1>
 

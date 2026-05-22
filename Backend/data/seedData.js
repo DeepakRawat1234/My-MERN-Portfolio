@@ -5,35 +5,18 @@ export const Projects = [
     slug: "nestfinder",
 
     shortDescription:
-      "A MERN stack rental platform for tenants and property owners with smart room discovery, rent tracking, complaint handling, and roommate matching features.",
+      "A MERN stack rental platform for tenants and property owners.",
 
     fullDescription:
-      "NestFinder is a full stack rental and PG management platform developed using the MERN stack. The project helps tenants easily search rooms, flats, and PGs based on preferences like location, room type, gender preference, and amenities. Property owners can manage listings, residents, complaints, and rent details through a dedicated dashboard. The platform also includes roommate compatibility scoring and property safety scoring features to improve the overall user experience. The application focuses on solving common student and tenant accommodation problems with a clean responsive UI and practical management tools.",
+      "NestFinder is a full stack rental and PG management platform developed using the MERN stack.",
 
     category: "Full Stack",
 
-    techStack: [
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Tailwind CSS",
-      "JWT Authentication",
-      "Cloudinary",
-    ],
+    techStack:
+      "React.js, Node.js, Express.js, MongoDB, Tailwind CSS, JWT Authentication, Cloudinary",
 
-    features: [
-      "Role-based authentication for tenants and owners",
-      "Property listing and management system",
-      "Advanced property search and filtering",
-      "Complaint management dashboard",
-      "Rent tracking functionality",
-      "Roommate compatibility scoring",
-      "Safety scoring for properties",
-      "Responsive dashboard UI",
-      "Image upload support",
-      "JWT-based secure authentication",
-    ],
+    features:
+      "Role-based authentication, Property listing system, Complaint management, Rent tracking, Roommate scoring",
 
     githubLink:
       "https://github.com/DeepakRawat1234/NestFinder",
@@ -47,221 +30,166 @@ export const Projects = [
     thumbnail:
       "https://lrwlwawfgrsaekydfhgs.supabase.co/storage/v1/object/public/Project's%20Assests/Nestfinder-thumbnail.png",
 
-    
+    status: "Completed",
+
+    featured: true,
+
+    searchableText:
+      "mern rental platform pg booking roommate finder",
+  },
+
+  {
+    title: "LokVani",
+
+    slug: "lokvani",
+
+    shortDescription:
+      "A cultural exploration platform for discovering Indian states and traditions.",
+
+    fullDescription:
+      "LokVani helps users explore culture, food, festivals, and tourist attractions of Indian states.",
+
+    category: "Full Stack",
+
+    techStack:
+      "React.js, JavaScript, Node.js, Express.js, MongoDB, Tailwind CSS",
+
+    features:
+      "State-wise information, Festival highlights, Food showcase, Responsive UI",
+
+    githubLink:
+      "https://github.com/DeepakRawat1234/Live-Project",
+
+    liveLink: "",
+
+    videoDemo: "",
+
+    thumbnail:
+      "https://lrwlwawfgrsaekydfhgs.supabase.co/storage/v1/object/public/Project's%20Assests/lokvani-thumbnail.png",
+
+    status: "Completed",
+
+    featured: false,
+
+    searchableText:
+      "lokvani indian culture platform festivals traditions",
+  },
+
+  {
+    title: "Real Estate Website",
+
+    slug: "real-estate-website",
+
+    shortDescription:
+      "A responsive real estate platform with property filtering.",
+
+    fullDescription:
+      "A frontend real estate project with property listings and contact form integration.",
+
+    category: "Frontend",
+
+    techStack:
+      "React.js, JavaScript, Tailwind CSS, Web3Forms, HTML, CSS",
+
+    features:
+      "Property listing, Property filtering, Contact forms, Responsive UI",
+
+    githubLink:
+      "https://github.com/DeepakRawat1234/RealSate-Website",
+
+    liveLink:
+      "https://realstate-deepak.netlify.app/",
+
+    videoDemo: "",
+
+    thumbnail:
+      "https://lrwlwawfgrsaekydfhgs.supabase.co/storage/v1/object/public/Project's%20Assests/REAL-STATE-THUMBNAIL.png",
 
     status: "Completed",
 
     featured: true,
 
     searchableText:
-      "mern rental platform pg booking roommate finder complaint management rent tracker property listing tenant owner dashboard safety scoring",
+      "real estate property listing react tailwind responsive",
   },
+
   {
-  title: "LokVani",
+    title: "Flipkart Clone",
 
-  slug: "lokvani",
+    slug: "flipkart-clone",
 
-  shortDescription:
-    "A cultural exploration platform that helps users discover different states of India, their traditions, food, language, festivals, and local culture.",
+    shortDescription:
+      "A responsive Flipkart-inspired e-commerce frontend clone.",
 
-  fullDescription:
-    "LokVani is a cultural awareness and exploration platform developed to help users learn about the diversity of Indian states and their local traditions. The project allows users to explore information related to culture, food, festivals, language, tourist attractions, and lifestyle of different regions across India. The platform was designed with a simple and interactive user interface to make cultural learning more engaging and accessible. The project helped improve frontend development, UI designing, content organization, and responsive web development skills while working on a meaningful educational concept.",
+    fullDescription:
+      "Frontend e-commerce clone project inspired by Flipkart with responsive layouts and UI sections.",
 
-  category: "Full Stack",
+    category: "Frontend",
 
-  techStack: [
-    "React.js",
-    "JavaScript",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "Tailwind CSS",
-  ],
+    techStack:
+      "HTML, CSS, Bootstrap, JavaScript",
 
-  features: [
-    "Explore culture of different Indian states",
-    "State-wise information system",
-    "Festival and tradition highlights",
-    "Food and lifestyle showcase",
-    "Responsive modern UI",
-    "Interactive navigation experience",
-    "Tourist attraction information",
-    "Educational and cultural awareness platform",
-  ],
+    features:
+      "Responsive UI, Product listings, Navigation menu, Shopping layout",
 
-  githubLink: "https://github.com/DeepakRawat1234/Live-Project",
+    githubLink:
+      "https://github.com/DeepakRawat1234/Flipkart-Clone",
 
-  liveLink: "",
+    liveLink:
+      "https://deepakrawat1234.github.io/Flipkart-Clone/",
 
-  videoDemo: "",
+    videoDemo:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7259486044885049344/",
 
-  thumbnail: "https://lrwlwawfgrsaekydfhgs.supabase.co/storage/v1/object/public/Project's%20Assests/lokvani-thumbnail.png",
+    thumbnail:
+      "https://lrwlwawfgrsaekydfhgs.supabase.co/storage/v1/object/public/Project's%20Assests/flipkar-thumbnail.png",
 
-  
-  status: "Completed",
+    status: "Completed",
 
-  featured: false,
+    featured: false,
 
-  searchableText:
-    "lokvani indian culture platform state culture festivals traditions food tourism react frontend cultural awareness",
-},
-{
-  title: "Real Estate Website",
+    searchableText:
+      "flipkart clone ecommerce frontend html css bootstrap",
+  },
 
-  slug: "real-estate-website",
+  {
+    title: "Healthcare Platform",
 
-  shortDescription:
-    "A responsive real estate platform for browsing property listings with filtering functionality and contact form integration.",
+    slug: "healthcare-platform",
 
-  fullDescription:
-    "The Real Estate Website is a responsive frontend project developed to help users explore and view different property listings in an organized way. The platform includes property cards, filtering options, and a modern user interface to improve the browsing experience. Users can search properties based on their preferences and contact property owners through an integrated contact form. Web3Forms was used for form submission functionality without requiring a custom backend setup. The project helped strengthen frontend development skills, responsive UI design, component structuring, and form integration handling.",
+    shortDescription:
+      "A hackathon healthcare platform for virtual appointments and consultations.",
 
-  category: "Frontend",
+    fullDescription:
+      "Healthcare Platform is a team-based healthcare hackathon project focused on digital healthcare accessibility.",
 
-  techStack: [
-    "React.js",
-    "JavaScript",
-    "Tailwind CSS",
-    "Web3Forms",
-    "HTML",
-    "CSS",
-  ],
+    category: "Full Stack",
 
-  features: [
-    "Responsive real estate interface",
-    "Property listing system",
-    "Property filtering functionality",
-    "Modern UI design",
-    "Contact form integration",
-    "Web3Forms form handling",
-    "Mobile-friendly layout",
-    "Interactive property browsing experience",
-  ],
+    techStack:
+      "JavaScript, Bootstrap, HTML, CSS",
 
-  githubLink: "https://github.com/DeepakRawat1234/RealSate-Website",
+    features:
+      "Video consultation, Virtual appointments, Medical records, Healthcare dashboard",
 
-  liveLink: "https://realstate-deepak.netlify.app/",
+    githubLink:
+      "https://github.com/DeepakRawat1234/Hackathon-Project-2025",
 
-  videoDemo: "",
+    liveLink:
+      "https://www.linkedin.com/posts/deepak-rawat-46a51628b_promptx-promptx-hackathon-activity-7309840411861078016-brwT/",
 
-  thumbnail: "https://lrwlwawfgrsaekydfhgs.supabase.co/storage/v1/object/public/Project's%20Assests/REAL-STATE-THUMBNAIL.png",
+    videoDemo:
+      "https://www.linkedin.com/posts/deepak-rawat-46a51628b_promptx-promptx-hackathon-activity-7309840411861078016-brwT/",
 
-  images: [
-    "/projects/realestate/1.png",
-    "/projects/realestate/2.png",
-    "/projects/realestate/3.png",
-  ],
+    thumbnail:
+      "https://lrwlwawfgrsaekydfhgs.supabase.co/storage/v1/object/public/Project's%20Assests/hackthon-thumbnail.png",
 
-  status: "Completed",
+    status: "Completed",
 
-  featured: true,
+    featured: false,
 
-  searchableText:
-    "real estate website property listing property filter react tailwind web3forms responsive frontend project",
-},
-{
-  title: "Flipkart Clone",
-
-  slug: "flipkart-clone",
-
-  shortDescription:
-    "A responsive Flipkart-inspired e-commerce frontend clone with product listings, navigation menus, and mobile-friendly design.",
-
-  fullDescription:
-    "Flipkart Clone is a frontend e-commerce project inspired by the Flipkart platform. The project was developed to practice responsive web design, UI structuring, and frontend development concepts. It includes features like product listings, navigation menus, category sections, banners, and responsive layouts for different screen sizes. The interface was designed to provide a familiar online shopping experience while improving frontend development and styling skills. This project helped strengthen understanding of layout management, responsive design, and component-based UI creation.",
-
-  category: "Frontend",
-
-  techStack: [
-    "HTML",
-    "CSS",
-    "Bootstrap",
-    "JavaScript",
-  ],
-
-  features: [
-    "Responsive e-commerce interface",
-    "Product listing sections",
-    "Navigation menu system",
-    "Category-based UI layout",
-    "Banner and promotional sections",
-    "Mobile-friendly design",
-    "Optimized user experience",
-    "Frontend clone implementation",
-  ],
-
-  githubLink:
-    "https://github.com/DeepakRawat1234/Flipkart-Clone",
-
-  liveLink:
-    "https://deepakrawat1234.github.io/Flipkart-Clone/",
-
-  videoDemo: "https://www.linkedin.com/feed/update/urn:li:activity:7259486044885049344/",
-
-  thumbnail: "https://lrwlwawfgrsaekydfhgs.supabase.co/storage/v1/object/public/Project's%20Assests/flipkar-thumbnail.png",
-
-  images: [
-    "/projects/flipkart/1.png",
-    "/projects/flipkart/2.png",
-    "/projects/flipkart/3.png",
-  ],
-
-  status: "Completed",
-
-  featured: false,
-
-  searchableText:
-    "flipkart clone ecommerce frontend html css bootstrap javascript responsive shopping website",
-},
-{
-  title: "Healthcare Platform",
-
-  slug: "healthcare-platform",
-
-  shortDescription:
-    "A hackathon healthcare platform focused on virtual appointments, video consultations, and secure medical record management.",
-
-  fullDescription:
-    "Healthcare Platform is a team-based hackathon project developed during PromptX at DBUU Dehradun. The project was created to improve healthcare accessibility through digital solutions that allow patients and doctors to connect remotely. The platform includes virtual appointment booking, real-time video consultations, and secure medical record storage features. The project focused on building a simple and efficient healthcare experience while improving teamwork, rapid problem-solving, and full stack development skills under hackathon conditions. Working on this project also helped in understanding real-world healthcare challenges and designing technology-based solutions for them.",
-
-  category: "Full Stack",
-
-  techStack: [
-    
-    "JavaScript",
-   "Bootstrap",
-    "HTML",
-    "CSS",
-  ],
-
-  features: [
-    "Virtual doctor appointments",
-    "Real-time video consultations",
-    "Secure medical record storage",
-    "Responsive healthcare dashboard",
-    "Doctor and patient interaction system",
-    "Modern UI design",
-    "Hackathon-based rapid development",
-    "Team collaboration project",
-  ],
-
-  githubLink: "https://github.com/DeepakRawat1234/Hackathon-Project-2025",
-
-  liveLink: "https://www.linkedin.com/posts/deepak-rawat-46a51628b_promptx-promptx-hackathon-activity-7309840411861078016-brwT/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEZgqBIBxT4aHvjioo7pLc-5ennZDkrOSnY",
-
-  videoDemo: "https://www.linkedin.com/posts/deepak-rawat-46a51628b_promptx-promptx-hackathon-activity-7309840411861078016-brwT/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEZgqBIBxT4aHvjioo7pLc-5ennZDkrOSnY",
-
-  thumbnail: "https://lrwlwawfgrsaekydfhgs.supabase.co/storage/v1/object/public/Project's%20Assests/hackthon-thumbnail.png",
-
-  
-
-  status: "Completed",
-
-  featured: false,
-
-  searchableText:
-    "healthcare platform virtual appointments video consultation medical records healthtech hackathon react node mongodb",
-}
+    searchableText:
+      "healthcare platform virtual appointments medical records hackathon",
+  },
 ];
 
  export const Certificates = [
@@ -431,7 +359,7 @@ export const UserData=[
   "description": "Aspiring MERN Stack Developer with strong knowledge of MongoDB, Express.js, React.js, and Node.js, committed to developing efficient and visually appealing web applications with great user experience.",
   "bio": "Aspiring Software Developer | MERN Stack | Problem Solver . I am a BCA student (2026 batch) from Devbhoomi Uttarakhand University with strong skills in React.js, JavaScript, Node.js, and MongoDB. I have built real-world projects including a MERN Stack Application with Authentication, a Real Estate Website with Filters & Contact Integration, a Healthcare Appointment Platform (Hackathon Project), and an E-commerce Flipkart Clone.Skilled in Git, GitHub, Figma, and REST APIs. Currently looking for opportunities to grow as a Full Stack Developer.",
   "email": "rawatyuvi.2006@gmail.com",
-  "password": "Bhulgya@123",
+  "password": "Bhulgya@12345",
   "phone": "+919569585595",
   "location": "Pauri Garhwal, Uttarakhand, India",
   "profilePic": ["https://lrwlwawfgrsaekydfhgs.supabase.co/storage/v1/object/public/Project's%20Assests/mypic-LpMsAZYp.jpg","https://lrwlwawfgrsaekydfhgs.supabase.co/storage/v1/object/public/Project's%20Assests/mypic2-60wGcxsA.jpg"],

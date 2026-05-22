@@ -1,6 +1,6 @@
 import react from "react";
 const Certificate=({certificates})=>{
-    console.log(certificates)
+    
     return (
         <div className="mt-20 text-center pb-20 pt-10" id="certificates">
 

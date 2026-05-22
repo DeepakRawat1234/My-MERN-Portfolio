@@ -38,4 +38,28 @@ try {
     res.status(500).json(error);
   }
 }
-export  {Projects,ProjectById};
+const UpdateProject=async(req,res)=>{
+try{
+  const {projectsData}=req.body;
+const updateData=await Project.deleteMany({});
+const insertData=await Project.insertMany(projectsData);
+res.status(200).json({message:"Projects Updated Successfully"});
+}
+catch(error){
+  res.status(500).json({message:`Error updating projects: ${error.message}`})
+}
+}
+const deleteProject = async (req, res) => {
+  try{
+    const { _id } = req.body;
+    const delelteProject=await Project.findByIdAndDelete(_id);
+    if(!delelteProject){
+      return res.status(404).json({message:"Project not found"});
+    }
+    res.status(200).json({message:"Project deleted successfully"});
+  }
+  catch(error){
+    res.status(500).json({message:`Error deleting project: ${error.message}`})
+  }
+}
+export  {Projects,ProjectById,UpdateProject,deleteProject};
